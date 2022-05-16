@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.nav-link {
+    color: darkgray;
+}
+
+nav {
+    padding: 20px;
+}
+
+nav img {
+    padding-left: 12px;
+}
+
+.sub-title {
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.nav-link:active {
+    color: #fff;
+}
+
+.nav-item>a :first-child {
+    color: #fff;
+}
+
+ul .nav-item:last-child a {
+    color: darkgreen;
+}
+
+
+.navbar-expand-sm .navbar-collapse {
+    display: flex;
+    flex-basis: auto;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/ba1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#btn-ora {
+    width: 200px;
+    height: 48px;
+    font-size: 20px;
+}
+
+.text-description {
+    width: 600px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+
+
+/* cards */
+
+.title {
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.title h6 {
+    line-height: 0.2em;
+
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card {
+    width: 290px;
+    margin: -20px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: none;
+}
+
+.card-header {
+    width: 87%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: none;
+}
+
+.card-header img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.card-body {
+    width: 90%;
+    margin-bottom: 50px;
+    padding: 0rem 0.8rem;
+}
+
+.spans {
+    margin-left: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+.card-text {
+    font-size: 12px;
+    text-align: justify;
+    color: #000;
+}
+
+
+/* carousel */
+.carousel-text {
+    margin: 10px;
+    width: 50%;
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+.carousel-item {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    position: initial;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: rgb(39, 39, 39);
+}
+
+.carousel-item img {
+    width: 50% !important;
+}
+
+.carousel-item.active {
+    display: flex;
+    flex-direction: row;
+    position: initial;
+
+}
+
+
+.post-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.bg-img {
+    background-image: url("./img/honolulu.jpg");
+    background-color: #fff;
+    width: 980px;
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    right: 0;
+    max-width: 500px;
+    padding: 16px;
+    background-color: rgb(42, 42, 44);
+    width: 800px;
+    height: 380px;
+    border-left: 1px solid white;
+}
+
+.container h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.container p {
+    color: #fff;
+    font-size: 12px;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+
+/* Form */
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.form p {
+    color: rgb(66, 65, 65);
+    font-size: 13px;
+    text-align: start;
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+
+.form form {
+    width: 600px;
+}
+
+
+.form input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 5px;
+    display: inline-block;
+    border: none;
+    border-top: 1px solid rgba(95, 93, 93, 0.226);
+}
+
+.form textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-top: 1px solid rgba(95, 93, 93, 0.226);
+}
+
+.form-group {
+    display: flex;
+}
+
+.form .button-form {
+    width: 100%;
+    background-color: yellowgreen;
+    color: #fff;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form .mini-text {
+    font-size: 12px;
+    color: rgba(80, 78, 78, 0.658);
+}
+
+
+/* Footer */
+
+
+.footer-content {
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.9682247899159664) 0%, rgb(3, 64, 95) 36%, rgb(2, 74, 102) 100%);
+}
+
+.footer-content ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+}
+
+.footer-content ul li {
+    list-style: none;
+    margin: 10px;
+    padding-top: 5px;
+}
+
+.footer-content ul li a {
+    display: table-caption;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 576px) {
+    .nav-link {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+    }
+
+    .form {
+        width: 100%;
+        align-items: baseline;
+    }
+
+    .form form {
+        width: 100%;
+
+    }
+
+    .bg-img {
+        width: 96%;
+        background-image: none;
+    }
+
+    .text-description {
+        align-self: revert;
+    }
+
+    .sub-title {
+        align-self: center;
+    }
+
+    .form .title {
+        align-self: center;
+    }
+
+    footer {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer-content ul li a {
+        font-size: 10px;
+    }
+
+    .card {
+        width: 250px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .container .btn-outline-light {
+        width: 100%;
+    }
+
+    .post-content {
+        align-items: flex-start;
+    }
+}

@@ -319,6 +319,9 @@ ul .nav-item:last-child a {
     text-decoration: none;
 }
 
+.alert {
+    display: none;
+}
 
 
 @media (max-width: 576px) {

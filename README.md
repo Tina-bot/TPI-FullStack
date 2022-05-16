@@ -1,6 +1,6 @@
 # TPI-FullStack💥
 <img src="https://64.media.tumblr.com/4257e6016349da2e930feb362ed04af2/9a6b40da55da0c2e-24/s640x960/35967aa0a2f82fa6fd15cc792a0cba9ca5055cfd.pnj">
-<img align="right" src="https://lh5.googleusercontent.com/cibVCnjHEOQxLGv0AU0unDqlHS_qtj9jX5Hqd69coT0sR0NPub83-jwNgpGC6IQms2ox6ossIaHrk_RvTy9V=w1783-h818">
+<img align="right" src="https://github.com/Tina-bot/TPI-FullStack/blob/main/img/codoacodo.png?raw=true">
 
 ``` 
 Trabajo Practico Integrador Fullstack de Codo a Codo

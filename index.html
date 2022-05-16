@@ -164,14 +164,19 @@
         </div>
         <p>Anótate como orador para dar una charla ignite. Cuentanos de qué quieres hablar!</p>
         <div class="contact-form">
-            <form action="">
+            <form action="" id="form">
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="Nombre">
                     <input type="text" class="form-control" placeholder="Apellido">
                 </div>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
                     placeholder="Sobre qué quieres hablar?"></textarea>
-
+                <div class="alert alert-success" role="alert" id="alert-success">
+                    Gracias por tu interes, el mensaje fue enviado!
+                </div>
+                <div class="alert alert-danger" role="alert" id="alert-danger">
+                    Por favor ingresa todos los campos!
+                </div>
                 <span class="mini-text">Recuerda incluir un titulo para tu charla</span>
                 <button type="submit" class="button-form">Enviar</button>
             </form>
